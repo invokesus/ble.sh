@@ -37,6 +37,7 @@
 ## Internal changes and fixes
 
 - main: include hostname in local runtime directory `#D1444` 6494836
+- util: add function `ble/string#quote-words` `#D1451` 0000000
 
 <!---------------------------------------------------------------------------->
 # ble-0.4.0-devel2
