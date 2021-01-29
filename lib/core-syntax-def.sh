@@ -109,3 +109,5 @@ if ((_ble_bash>=40200||_ble_bash>=40000&&!_ble_bash_loaded_in_function)); then
     declare -A _ble_syntax_highlight_lscolors_ext=()
   fi
 fi
+
+builtin eval -- "${_ble_util_gdict_declare//NAME/_ble_syntax_bash_simple_eval}"
