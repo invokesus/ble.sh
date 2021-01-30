@@ -34,6 +34,7 @@
 - edit (`kill-forward-logical-line`): fix a bug not deleting newline at the end of the line `#D1443` 09cf7f1
 - complete (mandb): fix an encoding prpblem of utf8 manuals `#D1446` 0000000
 - util (`ble/util/msleep`): fix hang in Cygwin by swithing from `/dev/udp/0.0.0.0/80` to `/dev/zero` `#D1452` 0000000
+- syntax: fix broken AST with `[[` keyword `#D1454` 0000000
 
 ## Internal changes and fixes
 
