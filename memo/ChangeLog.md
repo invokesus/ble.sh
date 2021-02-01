@@ -41,6 +41,7 @@
 - main: include hostname in local runtime directory `#D1444` 6494836
 - util: add function `ble/string#quote-words` `#D1451` 0000000
 - syntax (`ble/syntax:bash/simple-word/eval`): cache `#D1453` 0000000
+- global: refactor `setup => set up / set-up` `#D1456` 0000000
 
 <!---------------------------------------------------------------------------->
 # ble-0.4.0-devel2
