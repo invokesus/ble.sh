@@ -12,6 +12,7 @@
 - edit (kill/copy): combine multiple kills and copies (suggested by 3ximus) `#D1443` 66564e1
   - edit (`{kill,copy}-region-or`): fix unconditionally combined kills/copies (reported by 3ximus) `#D1447` 0000000
 - canvas: update emoji database and support `bleopt emoji_version` (motivated by endorfina) `#D1454` 0000000
+- canvas, edit: support `bleopt info_display` (suggested by 0neGuyDev) `#D1458` 0000000
 
 ## Changes
 
