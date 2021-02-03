@@ -13,6 +13,7 @@
   - edit (`{kill,copy}-region-or`): fix unconditionally combined kills/copies (reported by 3ximus) `#D1447` 0000000
 - canvas: update emoji database and support `bleopt emoji_version` (motivated by endorfina) `#D1454` 0000000
 - canvas, edit: support `bleopt info_display` (suggested by 0neGuyDev) `#D1458` 0000000
+- prompt: support `bleopt prompt_status_{line,align}` and `face prompt_status_line` `#D1462` 0000000
 
 ## Changes
 
@@ -24,6 +25,7 @@
   - syntax (`simple-word/is-simple-noglob`): suppress error messages on expansions `#D1461` 0000000
 - complete: perform pathname expansions in subshells (motivated by 3ximus) `#D1450` 0000000
 - complete: support `bleopt complete_timeout_compvar` to time out pathname expansions for `COMP_WORDS` / `COMP_LINE` `#D1457` 0000000
+- prompt: rename `bleopt prompt_{status_line => term_status}` `#D1462` 0000000
 
 ## Fixes
 
