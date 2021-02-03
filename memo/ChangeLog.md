@@ -37,6 +37,7 @@
 - complete (mandb): fix an encoding prpblem of utf8 manuals `#D1446` 0000000
 - util (`ble/util/msleep`): fix hang in Cygwin by swithing from `/dev/udp/0.0.0.0/80` to `/dev/zero` `#D1452` 0000000
 - syntax: fix broken AST with `[[` keyword `#D1454` 0000000
+- benchmark (`ble-measure`): work around a locale-dependent decimal point of `EPOCHREALTIME` (reported by 3ximus) `#D1460` 0000000
 
 ## Internal changes and fixes
 
@@ -45,6 +46,7 @@
 - syntax (`ble/syntax:bash/simple-word/eval`): cache `#D1453` 0000000
 - global: refactor `setup => set up / set-up` `#D1456` 0000000
 - global: clean up helps of user functions `#D1459` 0000000
+- benchmark (`ble-measure`): support `-T TIME` and `-B TIME` option `#D1460` 0000000
 
 <!---------------------------------------------------------------------------->
 # ble-0.4.0-devel2
