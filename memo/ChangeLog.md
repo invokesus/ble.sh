@@ -21,6 +21,7 @@
 - edit: preserve the state of `READLINE_{LINE,POINT,MARK}` `#D1437` 8379d4a
 - edit: change default behavior of <kbd>C-w</kbd> and <kbd>M-w</kbd> to operate on backward words `#D1448` 0000000
 - syntax (`layer:syntax/word`): perform pathname expansions in background subshells (motivated by 3ximus) `#D1449` 0000000
+  - syntax (`simple-word/is-simple-noglob`): suppress error messages on expansions `#D1461` 0000000
 - complete: perform pathname expansions in subshells (motivated by 3ximus) `#D1450` 0000000
 - complete: support `bleopt complete_timeout_compvar` to time out pathname expansions for `COMP_WORDS` / `COMP_LINE` `#D1457` 0000000
 
