@@ -24,6 +24,7 @@
 - syntax (`layer:syntax/word`): perform pathname expansions in background subshells (motivated by 3ximus) `#D1449` 0000000
   - syntax (`simple-word/is-simple-noglob`): suppress error messages on expansions `#D1461` 0000000
   - syntax (`simple-word/eval`): fix unperformed tilde expansions in the background (reported by 3ximus) `#D1462` 000000
+  - syntax (`simple-word/eval`): propagate timeouts in sync highlighting (reported by 3ximus) `#D1465` 0000000
 - complete: perform pathname expansions in subshells (motivated by 3ximus) `#D1450` 0000000
 - complete: support `bleopt complete_timeout_compvar` to time out pathname expansions for `COMP_WORDS` / `COMP_LINE` `#D1457` 0000000
 - prompt: rename `bleopt prompt_{status_line => term_status}` `#D1462` 0000000

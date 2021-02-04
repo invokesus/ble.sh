@@ -99,6 +99,7 @@ bleopt/declare -v highlight_filename 1
 bleopt/declare -v highlight_variable 1
 bleopt/declare -v highlight_timeout_sync 50
 bleopt/declare -v highlight_timeout_async 5000
+bleopt/declare -v syntax_eval_polling_interval 50
 
 if ((_ble_bash>=40200||_ble_bash>=40000&&!_ble_bash_loaded_in_function)); then
   if ((_ble_bash>=40200)); then
