@@ -48,6 +48,7 @@
 - main: include hostname in local runtime directory `#D1444` 6494836
 - util: add function `ble/string#quote-words` `#D1451` 0000000
 - syntax (`ble/syntax:bash/simple-word/eval`): cache `#D1453` 0000000
+  - syntax (`simple-word/eval`): support `opts=single` for a better cache performance (motivated by 3ximus) `#D1464` 0000000
 - global: refactor `setup => set up / set-up` `#D1456` 0000000
 - global: clean up helps of user functions `#D1459` 0000000
 - benchmark (`ble-measure`): support `-T TIME` and `-B TIME` option `#D1460` 0000000
