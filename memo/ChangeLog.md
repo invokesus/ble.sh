@@ -53,6 +53,7 @@
 - global: refactor `setup => set up / set-up` `#D1456` 0000000
 - global: clean up helps of user functions `#D1459` 0000000
 - benchmark (`ble-measure`): support `-T TIME` and `-B TIME` option `#D1460` 0000000
+- util, color (`bleopt`, `blehook`, `ble-color-setface`): support `--color` and fix `sgr0` contamination in non-color output `#D1466` 0000000
 
 <!---------------------------------------------------------------------------->
 # ble-0.4.0-devel2
